@@ -1,0 +1,15 @@
+[package]
+name = "cmark-gfm-sys"
+version = "0.1.0"
+authors = ["HelloEdit <corentin.poupry@protonmail.com>"]
+description = "Rust's raw bindings of libcmark-gfm"
+categories = ["external-ffi-bindings", "parser-implementations"]
+repository = "https://github.com/HelloEdit/rust-cmark-gfm/tree/master/cmark-gfm-sys"
+build = "build.rs"
+license = "MIT"
+edition = "2018"
+readme = "README.md"
+
+[build-dependencies]
+cmake = "0.1"
+bindgen = "0.49"

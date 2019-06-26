@@ -1,0 +1,23 @@
+[package]
+name = "cmark-gfm"
+version = "0.1.0"
+authors = ["HelloEdit <corentin.poupry@protonmail.com>"]
+description = "Rust wrapper of libcmark-gfm"
+keywords = ["gfm", "markdown", "cmark", "github"]
+categories = ["api-bindings"]
+repository = "https://github.com/HelloEdit/rust-cmark-gfm"
+edition = "2018"
+license = "MIT"
+exclude = [
+    "media/*",
+    "examples/*",
+    "tests/*",
+]
+readme = "README.md"
+
+[workspace]
+members = ["cmark-gfm-sys"]
+
+[dependencies]
+cmark-gfm-sys = { path = "cmark-gfm-sys", version = "0.1.0" }
+bitflags = "1.1.0"
