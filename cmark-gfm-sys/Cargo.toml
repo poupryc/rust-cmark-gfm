@@ -1,6 +1,6 @@
 [package]
 name = "cmark-gfm-sys"
-version = "0.1.0"
+version = "0.29.0"
 authors = ["HelloEdit <corentin.poupry@protonmail.com>"]
 description = "Rust's raw bindings of libcmark-gfm"
 categories = ["external-ffi-bindings", "parser-implementations"]

@@ -19,5 +19,5 @@ readme = "README.md"
 members = ["cmark-gfm-sys"]
 
 [dependencies]
-cmark-gfm-sys = { path = "cmark-gfm-sys", version = "0.1.0" }
+cmark-gfm-sys = { path = "cmark-gfm-sys", version = "0.29.0" }
 bitflags = "1.1.0"
