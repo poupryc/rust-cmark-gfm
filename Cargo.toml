@@ -1,6 +1,6 @@
 [package]
 name = "cmark-gfm"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["HelloEdit <corentin.poupry@protonmail.com>"]
 description = "Rust wrapper of libcmark-gfm"
 keywords = ["gfm", "markdown", "cmark", "github"]

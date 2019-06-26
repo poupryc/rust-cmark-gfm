@@ -136,7 +136,7 @@ dependencies = [
 
 [[package]]
 name = "cmark-gfm"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "bitflags 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "cmark-gfm-sys 0.29.0",
